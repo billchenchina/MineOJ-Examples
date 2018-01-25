@@ -1,0 +1,50 @@
+{
+    "language": "c++",
+    "compile": [
+        {
+            "compiler": "/usr/bin/g++",
+            "source options": [
+                "main.cc"
+            ],
+            "output options": [
+                "-o main.out"
+            ],
+            "compile flags": [
+                "-DONLINE_JUDGE"
+            ]
+        }
+    ],
+    "run": [
+        {
+            "program name": "main.out",
+            "time limit": 1000,
+            "memory limit": 512,
+            "output limit": 32,
+            "in": "stdin",
+            "out": "stdout",
+            "stdin": "stdin.json",
+            "stdout": "stdout.json"
+        },
+        {
+            "program name": "main.out",
+            "time limit": 1000,
+            "memory limit": 512,
+            "output limit": 32,
+            "in": "filein",
+            "out": "fileout",
+            "filein": "filein.json",
+            "fileout": "fileout.json"
+        }
+    ],
+    "check": [
+        {
+            "type": "default",
+            "name": "ncmp"
+        },
+        {
+            "type": "special",
+            "name": "check"
+        }
+    ]
+    
+}
