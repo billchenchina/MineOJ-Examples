@@ -1,0 +1,62 @@
+{
+    "judge_points": {
+        "points": [
+            {
+                "in-prefix": "data",
+                "in-suffix": "in",
+                "out-prefix": "data",
+                "out-suffix": "out",
+                "number": 2,
+                "begin-number": 1,
+                "type": ["sample"],
+                "preserve-zeros": 0
+            },
+            {
+                "in-prefix": "data",
+                "in-suffix": "in",
+                "out-prefix": "data",
+                "out-suffix": "out",
+                "number": 5,
+                "begin-number": 3,
+                "type": ["test"],
+                "preserve-zeros": 0
+            },
+            {
+                "in-prefix": "data",
+                "in-suffix": "in",
+                "out-prefix": "data",
+                "out-suffix": "out",
+                "number": 3,
+                "begin-number": 8,
+                "type": ["hack"],
+                "preserve-zeros": 0
+            }
+            
+        ],
+        "point": [
+            {
+                "in-name": "testemm.in",
+                "out-name": "testemm.out"
+            },
+            {
+                "in-name": "test233.in",
+                "out-name": "test233.out"
+            }
+        ]
+    },
+    "subtasks": [
+        {
+            "points": [0],
+            "point": []
+        },
+        {
+            "points": [1],
+            "point": [0]
+        },
+        {
+            "points": [2],
+            "point": [1]
+        }
+    ]
+    
+}
